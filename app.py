@@ -187,6 +187,7 @@ def active_orders():
     if not vendor_id:
         abort(400, 'you must include a vendor_id')
     json_data = []
+    special_id = 0
     for r in Order.query.filter_by(vendor_id=vendor_id).all():
         items = r.order.get('items')
         item_map = {}
@@ -198,6 +199,7 @@ def active_orders():
                 item_map[key] = 1
         for k, v in item_map.items():
             json_data.append({
+                'special_id': special_id,
                 'id': r.id,
                 'name': k,
                 'count': v,
@@ -205,6 +207,7 @@ def active_orders():
                 'user_id': r.order.get('user_id'),
                 'table_number': r.order.get('table_number'),
             })
+            special_id += 1
     return jsonify(json_data)
 
 @app.route('/new_orders_raw')

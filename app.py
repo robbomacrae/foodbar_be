@@ -35,87 +35,118 @@ def seed_db():
             'item_id':100001,
             'item_name':'San Pellegrino Sparkling Mineral Water',
             'price': 0.0,
-            'image_path':'https://cdn.shopify.com/s/files/1/1539/5375/products/SP500P_San_Pellegrino_Sparkling_Mineral_Water_PET_24x500ml_large_2x.jpg?v=1513893896',
+            'image_path':'https://i.imgur.com/PhL9pDa.png',
             'ingredients':['carbonated mineral water'],
+            'sold_out': False,
         },{
             'item_id':100002,
             'item_name':'Red Bull',
             'price': 0.0,
-            'image_path':'https://target.scene7.com/is/image/Target/GUEST_815596f4-1479-4085-aa75-1ed074c45e65?wid=488&hei=488&fmt=pjpeg',
+            'image_path':'https://i.imgur.com/toam81D.png',
             'ingredients':['carbonated water','citric acid','taurine','sodium bicarbonate','glucuronolactone','caffeine','B vitamins','sucrose','glucose'],
+            'sold_out': False,
         },{
             'item_id':100003,
             'item_name':'Coca-Cola',
             'price': 0.0,
-            'image_path':'https://cdn.shopify.com/s/files/1/0039/0574/9105/products/316a9d959edca55087286782fa2397fa_700x700.jpg?v=1539162994',
+            'image_path':'https://i.imgur.com/fAUnPag.png',
             'ingredients':['carbonated water','high-fructose corn syrup','caffeine','phosphoric acid','caramel color','natural flavorings'],
+            'sold_out': False,
         },{
             'item_id':100004,
             'item_name':'Diet Coke',
             'price': 0.0,
-            'image_path':'https://onlinecashandcarry.co.uk/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/d/i/diet_coke_150ml.jpg',
+            'image_path':'https://i.imgur.com/QenwOaz.png',
             'ingredients':['carbonated water','aspartame','caffeine','phosphoric acid','caramel color','natural flavorings','potassium benzonate'],
+            'sold_out': False,
         },{
             'item_id':100005,
             'item_name':'Lemon La Croix',
             'price': 0.0,
-            'image_path':'https://scontent.harristeeter.com/legacy/productimagesroot/DJ/7/318137.jpg',
+            'image_path':'https://i.imgur.com/z3szJoY.png',
             'ingredients':['carbonated water','natural essence'],
+            'sold_out': False,
         },{
             'item_id':100006,
             'item_name':'Lime La Croix',
             'price': 0.0,
-            'image_path':'https://scontent.harristeeter.com/legacy/productimagesroot/DJ/6/318136.jpg',
+            'image_path':'https://i.imgur.com/MsJLZbX.png',
             'ingredients':['carbonated water','natural essence'],
+            'sold_out': False,
         }]
+        },{
+            'category_name':'snacks',
+            'items':[
+                {
+                    'item_id':200001,
+                    'item_name':'Apple',
+                    'price': 0.0,
+                    'image_path':'https://i.imgur.com/CGPNqar.png',
+                    'ingredients':['apple'],
+                    'sold_out': False,
+                },{
+                    'item_id':200002,
+                    'item_name':'Tangerine',
+                    'price': 0.0,
+                    'image_path':'https://i.imgur.com/SBoPfji.png',
+                    'ingredients':['tangerine'],
+                    'sold_out': False,
+                },{
+                    'item_id':200003,
+                    'item_name':'Philippine Brand Dried Mango',
+                    'price': 0.0,
+                    'image_path':'https://i.imgur.com/mcYK0ux.png',
+                    'ingredients':['mangoes', 'sugar', 'sodium metabisulfite'],
+                    'sold_out': False,
+                },{
+                    'item_id':200004,
+                    'item_name':'Cookie',
+                    'price': 0.0,
+                    'image_path':'https://i.imgur.com/GyqlOPI.png',
+                    'ingredients':['butter','sugar','egg','flour','vanilla extract','baking soda','chocolate chips'],
+                    'sold_out': False,
+                },{
+                    'item_id':200005,
+                    'item_name':'Poke',
+                    'price': 0.0,
+                    'image_path':'https://i.imgur.com/eGtI9pF.png',
+                    'ingredients':['rice','tuna','edamame beans','green onions','soy sauce'],
+                    'sold_out': True,
+                }
+            ]
         },{
         'category_name':'soup',
         'items':[{
-            'item_id':1001,
+            'item_id':300001,
             'item_name':'tomato soup',
             'price': 4.99,
-            'image_path':'https://www.yummymummykitchen.com/wp-content/uploads/2018/03/32444-how-to-make-tomato-soup-with-fresh-tomatoes.jpg',
-            'ingredients':['tomato','olive oil','flour','onion']
+            'image_path':'https://i.imgur.com/ubjMT8N.png',
+            'ingredients':['tomato','olive oil','flour','onion'],
+            'sold_out': True,
         },{
-            'item_id':1002,
+            'item_id':300002,
             'item_name':'french onion soup',
             'price': 4.99,
-            'image_path':'https://food.fnr.sndimg.com/content/dam/images/food/fullset/2013/6/28/0/IG0508_French-Onion-Soup_s4x3.jpg.rend.hgtvcom.826.620.suffix/1375577926918.jpeg',
-            'ingredients':['onion','olive oil','mozzarella cheese','garlic']
+            'image_path':'https://i.imgur.com/MXilBQ7.png',
+            'ingredients':['onion','olive oil','mozzarella cheese','garlic'],
+            'sold_out': True,
         },
         {
-            'item_id':1003,
+            'item_id':300003,
             'item_name':'clam chowder',
             'price': 5.99,
-            'image_path':'https://www.spendwithpennies.com/wp-content/uploads/2018/01/New-England-Clam-Chowder-3.jpg',
-            'ingredients':['clams','onion','celery','potatoes','carrots','flour']
+            'image_path':'https://i.imgur.com/0r26qkn.png',
+            'ingredients':['clams','onion','celery','potatoes','carrots','flour'],
+            'sold_out': True,
         }]
-    },{
-        'category_id':2,
-        'category_name':'salad',
-        'items':[
-            {'item_id':2001,'item_name':'garden salad','price': 8.99,
-        'image_path': 'https://food.fnr.sndimg.com/content/dam/images/food/fullset/2018/3/8/0/FNM_040118-Olive-Garden-Style-House-Salad_s4x3.jpg.rend.hgtvcom.616.462.suffix/1520543510452.jpeg','ingredients':['lettuce','spinnach','tomato','cheddar cheese']}
-        ]
     }]))
     db.session.commit()
     db.session.add(Order(vendor_id=1, order={'table_number':5, 'items':[{'item_id':1001,'item_name':'tomato soup'},{'item_id':1001,'item_name':'tomato soup'},{'item_id':1002,'item_name':'french onion soup'},{'item_id':2001,'item_name':'garden salad'}]}))
-    db.session.add(Order(vendor_id=1, order={'table_number':2, 'items':[{'item_id':2001,'item_name':'garden salad'}]}))
+    db.session.add(Order(vendor_id=1, order={'table_number':2, 'special_instructions':None, 'user_id': 1, 'items':[{'item_id':2001,'item_name':'garden salad'}]}))
     db.session.commit()
     r = db.session.query(Vendor).first()
     return jsonify(r.to_json())
     
-@app.route('/test')
-def test():
-    db.session.add(Result(url='test'))
-    db.session.commit()
-    r = db.session.query(Result).first()
-    return jsonify(r.to_json())
-
-@app.route('/')
-def hello():
-    return "Hello World!"
-
 @app.route('/menu')
 def menu():
     vendor_id = request.args.get('vendor_id')
@@ -160,15 +191,18 @@ def active_orders():
         items = r.order.get('items')
         item_map = {}
         for i in items:
-            if i.get('item_name') in item_map.keys():
-                item_map[i.get('item_name')] += 1
+            key = i.get('item_name')
+            if key in item_map.keys():
+                item_map[key] += 1
             else:
-                item_map[i.get('item_name')] = 1
+                item_map[key] = 1
         for k, v in item_map.items():
             json_data.append({
                 'id': r.id,
                 'name': k,
                 'count': v,
+                'special_instructions': r.order.get('special_instructions'),
+                'user_id': r.order.get('user_id'),
                 'table_number': r.order.get('table_number'),
             })
     return jsonify(json_data)
@@ -194,14 +228,17 @@ def new_orders():
         items = r.order.get('items')
         item_map = {}
         for i in items:
-            if i.get('item_name') in item_map.keys():
-                item_map[i.get('item_name')] += 1
+            key = i.get('item_name')
+            if key in item_map.keys():
+                item_map[key] += 1
             else:
-                item_map[i.get('item_name')] = 1
+                item_map[key] = 1
         for k, v in item_map.items():
             json_data.append({
                 'name': k,
                 'count': v,
+                'special_instructions':	r.order.get('special_instructions'),
+                'user_id': r.order.get('user_id'),
                 'table_number': r.order.get('table_number'),
             })
     return jsonify(json_data)
